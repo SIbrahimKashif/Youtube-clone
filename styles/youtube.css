@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background-color: white;
+  padding-top: 56px;
+  padding-left: 72px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .videos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+  body {
+    padding-left: 0px;
+  }
+  .videos-grid {
+    padding: 20px 40px;
+  }
+}
+@media (max-width: 650px) {
+  .videos-grid {
+    grid-template-columns: 1fr;
+    padding: 20px 60px;
+  }
+  #upload-button,
+  #youtube-apps-button {
+    display: none;
+  }
+}
+@media (max-width: 492px) {
+  .header-center {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+}

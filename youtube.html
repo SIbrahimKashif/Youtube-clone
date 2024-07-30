@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link href="styles/video.css" rel="stylesheet" />
+    <link href="styles/header.css" rel="stylesheet" />
+    <link href="styles/sidebar.css" rel="stylesheet" />
+    <link href="styles/youtube.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <button class="menu-button">
+          <img src="icons/hamburger-menu.svg" class="menu-icon" />
+        </button>
+        <a href="https://www.youtube.com" class="yt-logo-link">
+          <img src="icons/youtube-logo.svg" class="yt-logo" />
+          <div class="country-code">PK</div>
+        </a>
+      </div>
+      <div class="header-center">
+        <div class="search-bar-container">
+          <input type="text" placeholder="Search" class="search-bar" />
+          <button class="search-button">
+            <img src="icons/search.svg" class="search-icon" />
+            <div class="header-tooltip">Search</div>
+          </button>
+        </div>
+        <button class="voice-button">
+          <img src="icons/voice.svg" class="voice-icon" />
+          <div class="header-tooltip">Voice search</div>
+        </button>
+      </div>
+      <div class="header-right">
+        <button id="upload-button" class="header-right-button">
+          <img src="icons/upload.svg" class="header-right-icons" />
+          <div class="header-tooltip">Create</div>
+        </button>
+        <button id="youtube-apps-button" class="header-right-button">
+          <img src="icons/youtube-apps.svg" class="header-right-icons" />
+          <div class="header-tooltip">YouTube apps</div>
+        </button>
+        <button id="notifications-button" class="header-right-button">
+          <img src="icons/notifications.svg" class="header-right-icons" />
+          <div class="notifications-count">5</div>
+          <div class="header-tooltip">Notifications</div>
+        </button>
+        <div class="pfp-container">
+          <img
+            src="icons/channels4_profile.jpg"
+            class="header-right-icons"
+            id="user-pfp" />
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-icon-container">
+        <img src="icons/home.svg" class="sidebar-icon" />
+        <div class="sidebar-text">Home</div>
+      </div>
+      <div class="sidebar-icon-container">
+        <img src="icons/explore.svg" class="sidebar-icon" />
+        <div class="sidebar-text">Explore</div>
+      </div>
+      <div class="sidebar-icon-container">
+        <img src="icons/subscriptions.svg" class="sidebar-icon" />
+        <div class="sidebar-text">Subscriptions</div>
+      </div>
+      <div class="sidebar-icon-container">
+        <img src="icons/originals.svg" class="sidebar-icon" />
+        <div class="sidebar-text">Originals</div>
+      </div>
+      <div class="sidebar-icon-container">
+        <img src="icons/youtube-music.svg" class="sidebar-icon" />
+        <div class="sidebar-text">YouTube Music</div>
+      </div>
+      <div class="sidebar-icon-container">
+        <img src="icons/library.svg" class="sidebar-icon" />
+        <div class="sidebar-text">Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="videos-grid">
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+              <img src="thumbnails/hq720.webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">6:31:23</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img src="pfps/unnamed.jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                HTML & CSS Full Course - Beginner to Pro
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@SuperSimpleDev"
+                  class="channel-name">
+                  SuperSimpleDev</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">10M views &middot; 2 years ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+              <img src="thumbnails/hq720 (1).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">18:44</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+                <img src="pfps/unnamed (1).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                The Ultimate Web Developer Roadmap For 2024
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/watch?v=Gc4Xh8u19NU"
+                  class="channel-name">
+                  Web Dev Simplified</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">244K views &middot; 5 months ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=6akmv1bsz1M&t=1s">
+              <img src="thumbnails/hq720 (2).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">37:03</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@veritasium">
+                <img src="pfps/unnamed (2).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                Something Strange Happens When You Follow Einstein's Math
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@veritasium"
+                  class="channel-name">
+                  Veritasium</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">11M views &middot; 2 months ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=3kKB6wYqP7Y">
+              <img src="thumbnails/hq720 (3).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">8:07</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@easyactually">
+                <img src="pfps/unnamed (3).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">being productive is easy, actually</div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@easyactually"
+                  class="channel-name">
+                  easy, actually</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">549K views &middot; 1 month ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+              <img src="thumbnails/hq720.webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">6:31:23</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img src="pfps/unnamed.jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                HTML & CSS Full Course - Beginner to Pro
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@SuperSimpleDev"
+                  class="channel-name">
+                  SuperSimpleDev</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">10M views &middot; 2 years ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+              <img src="thumbnails/hq720 (1).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">18:44</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/watch?v=Gc4Xh8u19NU">
+                <img src="pfps/unnamed (1).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                The Ultimate Web Developer Roadmap For 2024
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/watch?v=Gc4Xh8u19NU"
+                  class="channel-name">
+                  Web Dev Simplified</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">244K views &middot; 5 months ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=6akmv1bsz1M&t=1s">
+              <img src="thumbnails/hq720 (2).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">37:03</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@veritasium">
+                <img src="pfps/unnamed (2).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                Something Strange Happens When You Follow Einstein's Math
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@veritasium"
+                  class="channel-name">
+                  Veritasium</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">11M views &middot; 2 months ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=XU4q9RmLj38&t=193s&pp=ygUZYmF5eWluYWggYXJhYmljIGludGVuc2l2ZQ%3D%3D">
+              <img src="thumbnails/hq720 (5).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">2:11:33</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@bayyinah">
+                <img src="pfps/unnamed (5).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                Dream BIG: Arabic Intensive - Day 1 | Nouman Ali Khan
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@bayyinah"
+                  class="channel-name">
+                  Nouman Ali Khan - Bayyinah</a
+                >
+                <img src="icons/verified.svg" class="verified-icon" />
+              </div>
+              <p class="video-stats">1M views &middot; Streamed 1 year ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="thumbnail-container">
+            <a
+              href="https://www.youtube.com/watch?v=s5bG9-PtA2E&t=66s&pp=ygU5RWlkIC8gRGh1IGFsLUhpamphaCBUQUtCRUVSIEZPUiAxIEhPVVIgSUkgQkVBVVRJRlVMIFZPSUNF">
+              <img src="thumbnails/hq720 (4).webp" class="video-thumbnail"
+            /></a>
+            <div class="video-time">1:00:34</div>
+          </div>
+          <div class="video-details-grid">
+            <div class="profile-pic-container">
+              <a href="https://www.youtube.com/@HasbiRabbi">
+                <img src="pfps/unnamed (4).jpg" class="profile-pic" />
+              </a>
+            </div>
+            <div class="details-container">
+              <div class="video-title">
+                Eid Takbeer For 1 Hour &vert; Beautiful Voice
+              </div>
+              <div class="channel-name-container">
+                <a
+                  href="https://www.youtube.com/@HasbiRabbi"
+                  class="channel-name">
+                  Hasbi Rabbi</a
+                >
+              </div>
+              <p class="video-stats">549K views &middot; 1 month ago</p>
+            </div>
+            <div class="three-dots-container">
+              <button class="three-dots-button">
+                <img src="icons/three-dots-vertical.svg" class="three-dots" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="stop-scrolling">Stop Scrolling Bro...</div>
+    </main>
+  </body>
+</html>
