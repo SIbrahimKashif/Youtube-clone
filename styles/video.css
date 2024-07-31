@@ -7,11 +7,9 @@
   box-sizing: border-box;
   padding: 20px;
   background-color: rgb(249, 249, 249);
-  /* border: 1px solid blue; */
 }
 .video-card {
   vertical-align: top;
-  /* border: 1px solid red; */
 }
 .thumbnail-container {
   position: relative;
@@ -40,15 +38,9 @@
   margin-top: 12px;
   /* border: 2px solid pink; */
 }
-.profile-pic-container {
-  /* border: 1px solid green; */
-}
 .profile-pic {
   width: 36px;
   border-radius: 100%;
-}
-.details-container {
-  /* border: 1px solid blue; */
 }
 .video-title {
   font-weight: bold;
@@ -61,13 +53,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  /* background-color: lightpink; */
 }
 .channel-name {
   font-size: 14px;
   color: rgb(96, 96, 96);
   margin-right: 4px;
-  /* background-color: lightgreen; */
 }
 .verified-icon {
   width: 14px;
@@ -77,15 +67,11 @@
   color: rgb(96, 96, 96);
   margin-top: none;
 }
-.three-dots-container {
-  /* border: 1px solid black; */
-}
 .three-dots-button {
   background-color: transparent;
 }
 .three-dots {
   width: 24px;
-  /* border: 1px solid pink; */
 }
 .stop-scrolling {
   text-align: center;

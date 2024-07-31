@@ -7,7 +7,6 @@
   bottom: 0;
   z-index: 2;
   padding-top: 5px;
-  /* background-color: yellow; */
 }
 .sidebar-icon-container {
   display: flex;
@@ -16,7 +15,6 @@
   align-items: center;
   height: 72px;
   width: 100%;
-  /* background-color: lightgreen; */
 }
 .sidebar-icon {
   width: 24px;
